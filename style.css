@@ -2,18 +2,18 @@ body {
     font-family: 'Press Start 2P', cursive; 
     background-color: #1d1d1d; 
     color: #ffffff; 
-    font-size: 10px;
+    font-size: 12px;
     text-shadow: 4px 4px #000;
 }
 
 nav {
     background-color: #333;
-    padding: 10px;
+    padding: 10 px;
     text-align: center;
 }
 
 nav a {
-    color: #00ff00; 
+    color: #ffffff; 
     margin: 0 15px;
     text-decoration: none;
     font-size: 18px;
@@ -23,18 +23,26 @@ nav a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3 {
-    color: #ffcc00; 
+h1 {
+    color: #ffffff;
+    text-align: center; 
 }
 
-section {
+.home, .education, .experience, .skill, .project, .contact {
+    text-align: left;
     padding: 20px;
-    border: 2px solid #00ff00; 
     margin: 20px;
     border-radius: 10px;
-    background-color: #2d2d2d; 
+    background: linear-gradient(to bottom right, #570c57, #000000); 
+    border: 2px; 
 }
 
-.skill, .project, .contact {
-    margin-top: 20px;
+.experience-item {
+    background: rgba(255, 255, 255, 0.1); 
+    border: 1px;
+    border-radius: 5px; 
+    padding: 10px; 
+    margin: 10px 0; 
+    display: inline-block;
+    width: auto;
 }
