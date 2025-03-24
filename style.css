@@ -40,8 +40,9 @@ h1 {
 .experience-item {
     background: rgba(255, 255, 255, 0.1); 
     border: 1px;
-    border-radius: 5px; 
-    padding: 10px; 
+    border-radius: 5px; ; 
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 10px 0; 
     display: inline-block;
     width: auto;
